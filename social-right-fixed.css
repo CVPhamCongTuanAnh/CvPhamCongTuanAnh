@@ -1,0 +1,12 @@
+#social-right-fixed{
+    position: fixed;
+    top: 40%;
+    right: 10px;
+    z-index: 1070;
+}
+#social-right-fixed a{
+    display: block;
+}
+#social-right-fixed a img{
+    width: unset;
+}
