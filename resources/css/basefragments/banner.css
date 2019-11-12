@@ -1,0 +1,100 @@
+.banner {}
+
+.banner .package {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.banner .logo {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.banner .logo img {
+    height: 100%;
+    width: 100px;
+}
+
+.banner .sologan {
+    width: 100%;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.banner .sologan img {
+}
+
+.banner .cart {
+    position: absolute;
+    right: 0px;
+    font-size: 0.5em;
+}
+
+.banner .cart a {
+    position: relative;
+    font-size: 2em;
+    color: #1d2129;
+    display: block;
+    margin-top: 27px;
+}
+
+.banner .package .sologan > a {
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+}
+
+.banner .cart img {
+    top: -42px;
+    left: 10px;
+    padding-right: 6.5em;
+}
+
+.banner .cart span{
+    position: absolute;
+    top: 1em;
+    font-weight: bold;
+    right: 1.5em;
+}
+
+.banner .cart strong {
+    position: absolute;
+    top: 2.5em;
+    right: 0.5em;
+}
+
+@media(max-width: 768px) {
+    .banner {
+    }
+    .banner .cart a {
+        font-size: 1em;
+    }
+    .banner .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .banner .cart img {
+    }
+}
+
+@media(min-width: 992px) {
+    .view-md {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .view-md {
+        display: inline-block;
+    }
+    .banner .cart img {
+        padding-right: 0px;
+    }
+}
+
+/* END_BANNER */
